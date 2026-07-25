@@ -63,7 +63,7 @@ const searchCache = new Map();
 const CACHE_TTL_MS = 15 * 60 * 1000;
 
 app.get('/api/products', async (req, res) => {
-    const query = req.query.q || 'human hair wig makeup';
+    const query = req.query.q || 'android smartphone gadgets';
     const sort = req.query.sort || '';
     const page = String(parseInt(req.query.page) || 1);
 
